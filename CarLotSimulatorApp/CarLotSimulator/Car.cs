@@ -11,7 +11,11 @@ namespace CarLotSimulator
 
         //constructor
         //default constructor
-        public Car() { }
+        public Car() 
+        {
+            //static field that increments everytime we create a new instance of a Car
+            numOfCars++;
+        }
 
         //constructor with parameters
         public Car(int year, string make, string model, string engineNoise, 
@@ -32,6 +36,9 @@ namespace CarLotSimulator
         public string EngineNoise { get; set; }
         public string HonkNoise { get; set; }
         public bool IsDriveable {  get; set; }
+
+        //static field
+        public static int numOfCars { get; set; }
 
         //Methods 
         public static string MakeEngineNoise(string EngineNoise)

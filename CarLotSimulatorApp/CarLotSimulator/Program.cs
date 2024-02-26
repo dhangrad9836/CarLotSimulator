@@ -33,6 +33,21 @@ namespace CarLotSimulator
             spaceGreyCar.HonkNoise = "Loud";
             spaceGreyCar.IsDriveable = true;
 
+            //check how many cars in lot
+            if(Car.numOfCars == 0)
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+
+            } else if(Car.numOfCars == 1)
+
+            {
+                Console.WriteLine($"There is {Car.numOfCars} car in the lot");
+            }
+            else
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+            }
+
             //add spaceGreyCar to carLot list after spaceGreyCar Car is created
             carsInLot.Cars.Add(spaceGreyCar);
 
@@ -44,6 +59,22 @@ namespace CarLotSimulator
             blackCar.HonkNoise = "Loud";
             blackCar.IsDriveable = true;
 
+            //check how many cars in lot
+            if (Car.numOfCars == 0)
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+
+            }
+            else if (Car.numOfCars == 1)
+
+            {
+                Console.WriteLine($"There is {Car.numOfCars} car in the lot");
+            }
+            else
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+            }
+
             //add blackCar to carLot list after blackCar Car is created
             carsInLot.Cars.Add(blackCar);
 
@@ -54,6 +85,22 @@ namespace CarLotSimulator
             whiteCar.EngineNoise = "Low";
             whiteCar.HonkNoise = "Loud";
             whiteCar.IsDriveable = true;
+
+            //check how many cars in lot
+            if (Car.numOfCars == 0)
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+
+            }
+            else if (Car.numOfCars == 1)
+
+            {
+                Console.WriteLine($"There is {Car.numOfCars} car in the lot");
+            }
+            else
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+            }
 
             //*************BONUS*************//
 
@@ -68,6 +115,22 @@ namespace CarLotSimulator
                 HonkNoise = "Loud",
                 IsDriveable = true,
             };
+
+            //check how many cars in lot
+            if (Car.numOfCars == 0)
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+
+            }
+            else if (Car.numOfCars == 1)
+
+            {
+                Console.WriteLine($"There is {Car.numOfCars} car in the lot");
+            }
+            else
+            {
+                Console.WriteLine($"There are {Car.numOfCars} cars in the lot");
+            }
             //add anotherBlackCar to carLot list after anotherBlackCar Car is created
             carsInLot.Cars.Add(anotherBlackCar);
 
